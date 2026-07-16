@@ -3,66 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Your Company</title>
+    <title>Contact Transways India - Get a Quote Today</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="container">
-            <div class="logo">Your Company</div>
+            <div class="logo">
+                <span class="logo-icon">🚚</span>
+                Transways India
+            </div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#services">Services</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
     </nav>
 
     <header class="hero">
         <div class="container">
-            <h1>Get in Touch</h1>
-            <p>We'd love to hear from you</p>
+            <div class="hero-content">
+                <h1>Get in Touch</h1>
+                <p class="hero-subtitle">Have a shipment? Questions about our services? We're here to help. Reach out anytime.</p>
+            </div>
         </div>
     </header>
 
-    <section class="features">
+    <section class="services">
         <div class="container">
-            <div style="max-width: 600px; margin: 0 auto;">
-                <h2 style="text-align: center; margin-bottom: var(--spacing-lg);">Contact Form</h2>
+            <div style="max-width: 650px; margin: 0 auto;">
+                <h2 style="text-align: center; margin-bottom: var(--spacing-lg);">Send us a Message</h2>
+                <p style="text-align: center; color: var(--color-text-light); margin-bottom: var(--spacing-2xl);">
+                    Whether you're looking for a quick quote, have questions about our services, or want to explore partnership opportunities—let's connect.
+                </p>
                 <form id="contact-form">
                     <div class="form-group">
-                        <label for="name">Name *</label>
-                        <input type="text" id="name" name="name" required>
+                        <label for="name">Your Name *</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="email">Email *</label>
-                        <input type="email" id="email" name="email" required>
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" placeholder="john@company.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="company">Company Name *</label>
+                        <input type="text" id="company" name="company" placeholder="Your Company" required>
                     </div>
 
                     <div class="form-group">
                         <label for="subject">Subject *</label>
-                        <input type="text" id="subject" name="subject" required>
+                        <input type="text" id="subject" name="subject" placeholder="Quote Request / Partnership / Support">
                     </div>
 
                     <div class="form-group">
                         <label for="message">Message *</label>
-                        <textarea id="message" name="message" required></textarea>
+                        <textarea id="message" name="message" placeholder="Tell us about your shipping needs..." required></textarea>
                     </div>
 
-                    <button type="submit" class="cta-button" style="width: 100%; border: none; cursor: pointer;">
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">
                         Send Message
                     </button>
                 </form>
 
-                <div id="form-message" style="margin-top: var(--spacing-md); text-align: center;"></div>
+                <div id="form-message" style="margin-top: var(--spacing-md); text-align: center; font-weight: 600;"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="coverage" style="background-color: white;">
+        <div class="container">
+            <h2>Other Ways to Connect</h2>
+            <p class="section-subtitle">Reach out through your preferred channel</p>
+            <div class="coverage-grid">
+                <div class="coverage-item">
+                    <h3>📞 Phone</h3>
+                    <p>Call our dispatch desk anytime, 24/7. We're always ready to help with quotes and shipment updates.</p>
+                    <p style="font-weight: 600; color: var(--color-primary); margin-top: var(--spacing-sm);">+91-XXXX-XXXX-XXX</p>
+                </div>
+                <div class="coverage-item">
+                    <h3>📧 Email</h3>
+                    <p>Have detailed questions? Email us and we'll respond within 2 hours during business hours.</p>
+                    <p style="font-weight: 600; color: var(--color-primary); margin-top: var(--spacing-sm);">support@transways.in</p>
+                </div>
+                <div class="coverage-item">
+                    <h3>💬 Live Chat</h3>
+                    <p>Quick questions? Chat with our team directly on our platform for instant support and quotes.</p>
+                    <p style="font-weight: 600; color: var(--color-primary); margin-top: var(--spacing-sm);">Available on app</p>
+                </div>
+                <div class="coverage-item">
+                    <h3>🏢 Office Address</h3>
+                    <p>Visit us or send documents via post.</p>
+                    <p style="font-weight: 600; color: var(--color-text); margin-top: var(--spacing-sm);">Gurugram, Haryana<br>India</p>
+                </div>
             </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 Your Company. All rights reserved.</p>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Transways India Corporation</h4>
+                    <p>Pan-India trucking and logistics solutions for every shipment size.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Tracking</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Support Center</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Transways India Corporation. All rights reserved.</p>
+            </div>
         </div>
     </footer>
 
@@ -74,6 +147,8 @@
             const formData = {
                 name: document.getElementById('name').value,
                 email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value,
+                company: document.getElementById('company').value,
                 subject: document.getElementById('subject').value,
                 message: document.getElementById('message').value
             };
@@ -86,16 +161,16 @@
                 });
 
                 if (response.ok) {
-                    formMessage.style.color = 'var(--color-accent)';
-                    formMessage.textContent = 'Message sent successfully!';
+                    formMessage.style.color = 'var(--color-success)';
+                    formMessage.textContent = '✓ Message sent successfully! We'll get back to you soon.';
                     document.getElementById('contact-form').reset();
                 } else {
-                    formMessage.style.color = '#ef4444';
-                    formMessage.textContent = 'Failed to send message. Please try again.';
+                    formMessage.style.color = '#dc2626';
+                    formMessage.textContent = '✗ Failed to send message. Please try again or call us directly.';
                 }
             } catch (error) {
-                formMessage.style.color = '#ef4444';
-                formMessage.textContent = 'Error sending message. Please try again.';
+                formMessage.style.color = '#dc2626';
+                formMessage.textContent = '✗ Error sending message. Please check your connection and try again.';
             }
         });
     </script>
